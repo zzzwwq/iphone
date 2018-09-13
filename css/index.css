@@ -1,0 +1,741 @@
+@import url("base.css");
+
+header{
+    width: 100%;
+    height: 40px;
+    background: #444;
+}
+main{
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+main div{
+     font-size: 10px;
+     color: #a8a8aa;
+ }
+nav{
+    width: 100%;
+    height: 44px;
+    background: #333;
+}
+nav ul{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+nav ul a{
+    font-size: 12px;
+    color: #fff;
+    display: block;
+}
+nav ul a:hover{
+    color: #a6a6a6;
+}
+.list,.list ul{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.list ul li{
+    width: 100%;
+    height: 580px;
+    margin-bottom: 12px;
+    position: relative;
+    overflow: hidden;
+}
+.iPhoneX{
+    background: #fafafa;
+}
+.list ul li a{
+    width: 100%;
+    height: 580px;
+}
+.iPhoneX h1, .iPad h1{
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+.iPhoneX h2, .iPad h2{
+    color: #111;
+    font-weight: 400;
+    text-align: center;
+}
+.blue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.iPhoneX h3, .iPad h3{
+    text-align: center;
+    color: #0070c9;
+    font-weight: normal;
+}
+.iPhoneX h4, .iPad h4{
+    text-align: center;
+    color: #0070c9;
+    font-weight: normal;
+}
+.box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iPad{
+    background: #f5f5f5;
+}
+.box1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MacBookPro{
+    background: #ccc;
+}
+.MacBookPro h1{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.MacBookPro h2{
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+.MacBookPro h3{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+.MacBookPro h4{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+.box2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lattice, .lattice ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lattice ul li{
+    background: #000;
+    position: relative;
+    border-bottom: 12px solid #fff;
+    box-sizing: border-box;
+}
+.lattice ul li:nth-child(2n){
+    border-left: 6px solid #fff;
+    border-right: 12px solid #fff;
+}
+.lattice ul li{
+    width: 50%;
+    height: 592px;
+    border-left: 12px solid #fff;
+    border-right: 6px solid #fff;
+}
+.lattice ul li:nth-child(2n){
+    border-left: 6px solid #fff;
+    border-right: 12px solid #fff;
+}
+.lattice h1{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.lattice h2{
+    width: 100%;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+.Box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 100%;
+    height: 467px;
+    background: #f2f2f2;
+}
+.bag{
+    height: auto;
+    margin: 0 auto;
+}
+.bag ul {
+    width: 100%;
+    height: 300px;
+}
+.bag ul li{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.label{
+    width: 100%;
+    font-size: 10px;
+    color: #333;
+    padding-bottom: 1px;
+}
+.bag ul li .word{
+    width:100%;
+    height: auto;
+    padding-top: 0;
+}
+.bag ul li .word li{
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+}
+.bag ul li .word1{
+    width:100%;
+    height: auto;
+    padding-top: 0;
+}
+
+.bag ul li .word1 li{
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+}
+.bag ul li .word1 li a{
+    width: 100%;
+    font-size: 10px;
+    color:#555;
+    line-height: 26px;
+}
+.bag ul li .word1 li:last-child{
+    height: 26px;
+}
+.bag ul li .word li a{
+    width: 100%;
+    font-size: 10px;
+    color:#555;
+    line-height: 26px;
+}
+.medium {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 28px;
+}
+.top{
+    width: 100%;
+    height: 18px;
+    font-size: 10px;
+    color: #a295b3;
+    line-height: 18px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d6d6d6;
+    display: block;
+}
+.small{
+    font-size: 10px;
+    color: #0070c9;
+}
+.hide{
+    width: auto;
+    height: 16px;
+    padding: 9px 0;
+    display: block;
+}
+.down{
+    float: left;
+    line-height: 16px;
+    font-size: 10px;
+    color: #888;
+    padding-right: 21px;
+}
+.hide a{
+    width: auto;
+    float: left;
+    line-height: 16px;
+    color: #555;
+    font-size: 10px;
+    padding: 0 9px 0 11px;
+    border-right: 1px solid #d6d6d6;
+}
+.hide a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.hide a:last-child{
+    border-right: none;
+}
+.picture{
+    width: 43px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 9px;
+    margin-top: 9px;
+    display: block;
+}
+.picture:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.picture .picture_left{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(../img/16.png) no-repeat left;
+    background-size: 16px 16px;
+}
+.picture .picture_right{
+    width: 24px;
+    height: 16px;
+    float: right;
+    font-size: 10px;
+}
+.bottom{
+    width: 100%;
+    height: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    color: #999;
+}
+.bottom a{
+    width: 101px;
+    height: 100%;
+    font-size: 10px;
+    color: #999;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+.third-screen{
+    height: 439px;
+    background: #f2f2f2;
+}
+.sheet{
+    padding: 0 22px;
+}
+.sheet ul{
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+}
+.sheet ul li{
+    width: auto;
+    height: 37px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.sheet ul li a{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    color: #333;
+    line-height: 37px;
+}
+.sheet ul li a span{
+    float: right;
+    color: #333;
+}
+.sheet-medium {
+    width: 100%;
+    height: auto;
+    padding-top: 17px;
+}
+.sheet-top1{
+    width: 100%;
+    height: 18px;
+    font-size: 10px;
+    color: #a295b3;
+    line-height: 18px;
+    padding-bottom: 7px;
+    display: block;
+}
+.sheet-hide{
+    width: auto;
+    height: 49px;
+    display: block;
+}
+.sheet-down{
+    line-height: 22px;
+    font-size: 10px;
+    color: #888;
+}
+.sheet-hide a{
+    width: auto;
+    float: left;
+    color: #555;
+    font-size: 10px;
+    padding-right: 11px;
+    margin-top: 4px;
+    margin-right: 9px;
+    border-right: 1px solid #d6d6d6;
+}
+.sheet-hide a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.sheet .sheet-hide a:first-child{
+    padding:  0 9px 0 0;
+}
+.sheet-hide a:last-child{
+    border-right: none;
+}
+.sheet-picture{
+    width: 43px;
+    height: 16px;
+    padding: 18px 0 ;
+    display: block;
+}
+.sheet-picture:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sheet-picture .picture_left{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(../img/16.png) no-repeat left;
+    background-size: 16px 16px;
+}
+.sheet-picture .picture_right{
+    width: 24px;
+    height: 16px;
+    float: right;
+    font-size: 10px;
+}
+@media screen and (min-width:1024px){
+    main{
+        width: 976px;
+    }
+    nav ul {
+        width: 976px;
+    }
+    .max{
+        display: block;
+        }
+    .min{
+        display: none;
+        }
+    .iPhoneX h1{
+        line-height: 60px;
+        font-size: 56px;
+        margin-top: 88px;
+    }
+    .iPhoneX h2{
+        line-height: 37px;
+        font-size: 22px;
+    }
+    .blue{
+        height: 55px;
+    }
+    .iPhoneX h3{
+        width: 128px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .iPhoneX h4{
+        width: 84px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .box{
+        width: 1068px;
+        height: 337px;
+        top: 284px;
+        background: url("../img/iphone_x_large.jpg") no-repeat center;
+        background-size: 1068px 337px;
+    }
+    .iPad h1{
+        line-height: 60px;
+        font-size: 56px;
+        margin-top: 46px;
+    }
+    .iPad h2{
+        line-height: 37px;
+        font-size: 22px;
+    }
+    .iPad h3{
+        width: 128px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .iPad h4{
+        width: 84px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .box1{
+        width: 930px;
+        height: 355px;
+        bottom: 0;
+        background: url("../img/ipad_large.jpg") no-repeat center;
+        background-size: 930px 355px;
+    }
+    .MacBookPro h1{
+        line-height: 60px;
+        font-size: 56px;
+        margin-top: 46px;
+    }
+    .MacBookPro h2{
+        line-height: 37px;
+        font-size: 22px;
+    }
+    .MacBookPro h3{
+        width: 128px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .MacBookPro h4{
+        width: 84px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .box2{
+        width: 2560px;
+        height: 624px;
+        bottom: 0;
+        background: url("../img/macbook_pro_performance_large.jpg") no-repeat center;
+        background-size: 2560px 624px;
+        transform: translateX(-25%);
+    }
+    .lattice h1{
+        padding-top: 46px;
+        height: 55px;
+        font-size: 34px;
+        line-height: 55px;
+    }
+    .lattice h2{
+        height: 49px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .Box {
+        width: 283px;
+        height: 386px;
+        top: 194px;
+        background: url(../img/three_rings_large.jpg) no-repeat center;
+        background-size: 283px 386px;
+    }
+    .bag{
+        width: 980px;
+    }
+    .bag ul{
+        padding-top: 43px;
+    }
+    .third-screen{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px){
+    main{
+        padding-right: 16px;
+    }
+    nav ul {
+        padding: 0 22px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    .iPhoneX h1{
+        line-height: 41px;
+        font-size: 36px;
+        margin-top: 101px;
+    }
+    .iPhoneX h2{
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .blue{
+        height: 40px;
+    }
+    .iPhoneX h3{
+        width: 113px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .iPhoneX h4{
+        width: 64px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .box{
+        width: 736px;
+        height: 336px;
+        top: 284px;
+        background: url("../img/iphone_x_medium.jpg") no-repeat center;
+        background-size: 736px 336px;
+    }
+    .iPad h1{
+        line-height: 41px;
+        font-size: 36px;
+        margin-top: 65px;
+    }
+    .iPad h2{
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .iPad h3{
+        width: 113px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .iPad h4{
+        width: 64px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .box1{
+        width: 650px;
+        height: 325px;
+        background: url("../img/ipad_medium.jpg") no-repeat center;
+        background-size: 650px 325px;
+    }
+    .lattice ul li{
+        width: 50%;
+        height: 502px;
+        border-left: 12px solid #fff;
+        border-right: 6px solid #fff;
+    }
+    .lattice ul li:nth-child(2n){
+        border-left: 6px solid #fff;
+        border-right: 12px solid #fff;
+    }
+    .lattice h1{
+        padding-top: 40px;
+        height: 39px;
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .lattice h2{
+        height: 49px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .Box{
+        width: 219px;
+        height: 292px;
+        top: 196px;
+        background: url(../img/three_rings_medium.jpg) no-repeat center;
+        background-size: 219px 292px;
+    }
+    .bag{
+        width: auto;
+        padding: 0 22px;
+    }
+    .bag ul{
+        padding-top: 23px;
+    }
+    .third-screen{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .max{
+        display: none;
+    }
+    .min{
+        display: block;
+    }
+    .iPhoneX h1{
+        line-height: 36px;
+        font-size: 30px;
+        margin-top: 76px;
+    }
+    .iPhoneX h2{
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .blue{
+        height: 34px;
+    }
+    .iPhoneX h3{
+        line-height: 34px;
+        font-size: 16px;
+    }
+    .iPhoneX h4{
+        line-height: 34px;
+        font-size: 16px;
+    }
+    .box{
+        width: 320px;
+        height: 353px;
+        top: 230px;
+        background: url("../img/iphone_x_small.jpg") no-repeat center;
+        background-size: 320px 353px;
+    }
+    .iPad h1{
+        line-height: 36px;
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .iPad h2{
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .iPad h3{
+        line-height: 34px;
+        font-size: 16px;
+    }
+    .iPad h4{
+        line-height: 34px;
+        font-size: 16px;
+    }
+    .box1{
+        width: 228px;
+        height: 340px;
+        background: url("../img/ipad_small.jpg") no-repeat center;
+        background-size: 228px 340px;
+    }
+    .lattice ul li{
+        width: 100%;
+        height: 518px;
+        border-left: none;
+        border-right: none;
+    }
+    .lattice ul li:nth-child(2n){
+        border-left: none;
+        border-right: none;
+    }
+    .lattice h1{
+        padding-top: 36px;
+        height: 38px;
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .lattice h2{
+        height: 56px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .Box{
+        width: 219px;
+        height: 297px;
+        top: 194px;
+        background: url(../img/three_rings_small.jpg) no-repeat center;
+        background-size: 219px 297px;
+    }
+    footer{
+        display: none;
+    }
+    .third-screen{
+        display: block;
+    }
+}
